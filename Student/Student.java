@@ -1,12 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
-/**
- *
- * @author hp
- */
 public abstract class Student implements Evaluatable {
 
     protected String id;
@@ -47,4 +39,5 @@ public abstract class Student implements Evaluatable {
     }
 
     public abstract void showDetails();
+
     }
