@@ -1,0 +1,27 @@
+class address {
+    public class StudentAddress {
+   
+    private String campus;
+    private String roomNumber;
+
+        
+       public StudentAddress(String campus ,String roomNumber){
+           this.campus=campus;
+           this.roomNumber=roomNumber;
+            }
+     public void  setcampus(String campus){
+         this.campus=campus;
+     }  
+     public String getcampus(){
+         return campus;
+     }
+     public void  setroomNumber(String roomNumber){
+         this.roomNumber=roomNumber;
+     } 
+     public String getroomNumber(){
+         return roomNumber;
+     }
+
+
+               }
+}
